@@ -20,7 +20,11 @@ public class Main {
             hewan.removeIf(h -> h.equals(warna));
             deletedData.add(warna);
         }
-
+        System.out.print("\n=====================\n");
+        System.out.print("||Deny Krisdianto  ||\n");
+        System.out.print("||202110370311432  ||\n");
+        System.out.print("||Prodi Informatika||\n");
+        System.out.print("=====================\n\n");
         System.out.println("\nHewan yang dihapus : ");
         System.out.println(deletedData);
         System.out.println("\nOutput Hewan Setelah DiHapus : ");
